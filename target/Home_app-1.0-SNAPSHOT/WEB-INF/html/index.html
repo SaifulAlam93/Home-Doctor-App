@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: rgb(4, 100, 92);
+            padding: 30px;
+            text-align: center;
+            font-size: 50px;
+            color: black ;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+      
+
+      .grid3 {
+            float: left;
+            width: 33%;
+            height: 400px;
+            background: all;
+            padding: 20px;
+        }
+        .grid1 {
+            float: left;
+            width: 34%;
+            height: 400px;
+            background: all;
+            padding: 20px;
+        }
+        .grid2 {
+            float: left;
+            width: 33%;
+            height: 400px;
+            background: all;
+            padding: 20px;
+        }
+
+
+        /* Clear floats after the columns */
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+        left: 0;
+            bottom: 0;
+        position: fixed;
+            background-color: rgb(4, 100, 92);
+            padding: 5px;
+            text-align: Right;
+            color: black;
+      width: 100%;
+        }
+    
+
+  
+
+    </style>
+  
+</head>
+
+<body>
+    <header>
+        <h2>Welcome My Home App</h2>
+    </header>
+
+<section >
+
+    
+          
+<div class="grid1" style="text-align: center;"><a href="loginAdmin"  style="width:auto; height: 50% "><h3>Login as a Admin</h3></a></div>
+<div class="grid2" style="text-align: center;"><a href="loginDoctor"  style="width:auto;  height: 50%"><h3>Login as a Physician</h3></a></div>
+<div class="grid3" style="text-align: center;"><a href="loginPatient"  style="width:auto;  height: 50%"><h3>Login as a Patient</h3></a></div>
+
+
+ </section>
+
+    <footer class="footer">
+        <section class="navbar">
+            <a href="#">career</a>
+            <a href="#">Contact us</a>
+            <a href="#">Feedback</a>
+            
+        </section>
+    </footer>
+
+</body>
